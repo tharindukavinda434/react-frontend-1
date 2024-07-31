@@ -1,0 +1,13 @@
+#frontend CI/Cd pipeline
+
+name: Frontend CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
