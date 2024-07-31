@@ -5,9 +5,9 @@ name: Frontend CI/CD Pipeline
 on:
   push:
     branches:
-      - main
+      - dev-githubactions
   pull_request:
     branches:
-      - main
+      - dev-githubactions
   workflow_dispatch:
 
