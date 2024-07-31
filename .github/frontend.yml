@@ -4,11 +4,8 @@ name: Frontend CI/CD
 
 on:
   push:
-    paths:
-      - 'frontend/**'
-  pull_request:
-    paths:
-      - 'frontend/**'
+    branches:
+      - dev-githubactions
   workflow_dispatch:
 
 jobs:
